@@ -300,3 +300,16 @@ li p {
         position: relative;
     }
 }
+
+@media only screen and (min-width: 280px) and (max-width: 350px){
+    .header{
+        margin-left: 0%;
+    }
+    .top_nav ul li a {
+        font-size: 10px;
+        position: relative;
+    }
+    .logo{
+        display: none;
+    }
+}
