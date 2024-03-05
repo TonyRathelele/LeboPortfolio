@@ -205,3 +205,88 @@ li p {
         font-size: 12px;
     }
 }
+
+/* Media Queries */
+@media only screen and (max-width: 412px) {
+    .header{
+        margin-left: 3%;
+        font-size: 15px;
+    }
+    .nav {
+        justify-content: flex-start; /* Align content to the left */
+    }
+    .top_nav ul li p{
+        font-size: 5px;
+    }
+    .info p{
+        font-size: 12px;
+    }
+    .top_nav{
+        background-color: rgb(134, 127, 127);
+        width: 100%;
+    }
+
+    .top_nav ul li a {
+        font-size: 15px;
+        position: relative;
+    }
+    .container {
+        background-color: rgb(14, 11, 11);
+        height: 90vh;
+    }
+    .about h1{
+        font-size: 20px;
+    }
+    .about h3{
+        font-size: 14px;
+    }
+    .about p{
+        font-size: 12px;
+    }
+    .about ul li{
+        font-size: 12px;
+    }
+    .column {
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+
+    .info {
+        flex-basis: 100%;
+    }
+
+    .img {
+        flex-basis: 100%;
+    }
+    .info h1{
+        font-size: 20px;
+        margin-top: 2%;
+    }
+    .info h3{
+        font-size: 15px;
+    }
+
+    .image {
+        width: 50%;
+        height: 30vh;
+        border-radius: 0%;
+        box-shadow: #8b8b88;
+    }
+
+    .logo {
+        height: 3vh;
+    }
+
+    .footer_container {
+        height: 7vh;
+    }
+    .top_nav ul li {
+        margin: 5px 5px;
+    }
+    .footer_container p{
+        font-size: 12px;
+    }
+    i{
+        font-size: 12px;
+    }
+}
